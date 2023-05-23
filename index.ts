@@ -21,8 +21,8 @@ const file_path = path.join('data', 'test.xlsx')
 ***/
 
 
-const { Mongo_URI, DB_Name, Collection_Name } = Mongo_Credentials
-excelToMongoDB(file_path, Mongo_URI, DB_Name, Collection_Name)
+// const { Mongo_URI, DB_Name, Collection_Name } = Mongo_Credentials
+// excelToMongoDB(file_path, Mongo_URI, DB_Name, Collection_Name)
 
 
 /*** if you wanna read a file in a directory and save it else where, uncomment the bellow lines and run ```npm run save``` ***/
